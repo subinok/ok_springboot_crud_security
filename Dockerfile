@@ -34,7 +34,7 @@ RUN ./mvnw clean package -Dmaven.test.skip=true
 #
 # production environment
 
-FROM docker pull eclipse-temurin:17.0.13_11-jre
+FROM eclipse-temurin:17.0.13_11-jre
 #FROM eclipse-temurin:17.0.2_8-jre-alpine
 #FROM ghcr.io/shclub/jre17-runtime:v1.0.0
 
